@@ -22,6 +22,17 @@ class LinkedList {
 
         head = newNode;                // head now points to new node
     }
+    void insert_middle(int data, int position){
+        Node newNode = new Node(data);
+
+         node temp = head;
+
+         for (i=0;i < position-1 ;i++){
+            temp = temp.next;
+         }
+         newNode.next= temp;
+         temp.next = newNode;
+    }
 }
 
 public class Main {
@@ -32,5 +43,6 @@ public class Main {
         linkedList.insert(1);
         linkedList.insert(2);
         linkedList.insert(3);
+        linkedList.insert_middle(5, 1);
     }
 }

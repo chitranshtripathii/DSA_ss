@@ -22,6 +22,7 @@ class LinkedList {
 
         head = newNode;                // head now points to new node
     }
+    #ye hum day3 mai padhe the and and ye method se hum new node add kar rahe in the middle of linkedlist  
     void insert_middle(int data, int position){
         Node newNode = new Node(data);
 
@@ -43,6 +44,6 @@ public class Main {
         linkedList.insert(1);
         linkedList.insert(2);
         linkedList.insert(3);
-        linkedList.insert_middle(5, 1);
+        linkedList.insert_middle(5, 1); 
     }
 }

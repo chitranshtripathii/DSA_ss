@@ -22,11 +22,10 @@ class LinkedList2 {
 
         head = newNode;                // head now points to new node
     }
-<<<<<<< HEAD
-    //ye hum day3 mai padhe the and and ye method se hum new node add kar rahe in the middle of linkedlist
-=======
+ 
+//ye hum day3 mai padhe the and and ye method se hum new node add kar rahe in the middle of linkedlist
     //ye hum day3 mai padhe the and and ye method se hum new node add kar rahe in the middle of linkedlist  
->>>>>>> 05fec27 (added deletion of node at end, mid, beginging)
+// 05fec27 (added deletion of node at end, mid, beginging)
     void insert_middle(int data, int position){
         Node2  newNode = new Node2(data);
 

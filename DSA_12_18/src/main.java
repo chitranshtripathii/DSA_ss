@@ -1,23 +1,23 @@
-# ye hum class banaye hai ki humara node kaisa dikhege 
-class Node {
+//ye hum class banaye hai ki humara node kaisa dikhege
+class Nodee {
     int data;       // stores the data
-    Node next;      // reference to the next node
+    Nodee next;      // reference to the next node
 
-    Node(int data) {
+    Nodee(int data) {
         this.data = data;
         this.next = null;
     }
 }
-# ye hum LinkedList naam ki class bana rahe taki humko lonked list ka structure miljaye 
-class LinkedList {
-    Node head;      // head points to the first node
-# ye hum linkedlist ka constructor bana rahe 
-    LinkedList() {
+//ye hum LinkedList naam ki class bana rahe taki humko lonked list ka structure miljaye
+class LinkedListt {
+    Nodee head;      // head points to the first node
+// ye hum linkedlist ka constructor bana rahe
+    LinkedListt() {
         this.head = null;
     }
-# yaha pe hum nodes ko at begining of linkedlist add kar rahe ye ek method hai
+//yaha pe hum nodes ko at begining of linkedlist add kar rahe ye ek method hai
     void insert(int data) {
-        Node newNode = new Node(data); // creating a new node
+        Nodee newNode = new Nodee(data); // creating a new node
 
         newNode.next = head;           // new node points to old head
 
@@ -25,7 +25,7 @@ class LinkedList {
     }
 }
 
-public class main{
+public class Main {
     public static void main(String[] args) {
 
         LinkedList linkedList = new LinkedList();
